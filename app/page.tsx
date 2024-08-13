@@ -1,8 +1,11 @@
 "use client";
+import { ThreeDCardDemo } from "@/components/CardList";
 import Cards from "@/components/Cards";
+import { GlobeDemo } from "@/components/Earth";
 import HeroSection from "@/components/HeroSection";
 import { CanvasRevealEffectDemo } from "@/components/HoverCrads";
 import { ImageSlider } from "@/components/ImageSlider";
+import { MarqueeDemo } from "@/components/InfiniteList";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
@@ -15,7 +18,10 @@ export default function Home() {
         <ImageSlider />
         <Cards />
         <CanvasRevealEffectDemo />
-       
+        <GlobeDemo />
+        <MarqueeDemo />
+        <ThreeDCardDemo />
+     
       </div>
     </main>
   );
